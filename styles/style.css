@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #f4f4d6;
 }
 
@@ -14,15 +14,44 @@ body{
     border-radius: 8px;
     border: 2px solid #f4b974;
 }
+
 #card-img {
     height: 280px;
     width: 300px;
     display: block;
     margin: 0 auto;
-    
+
 }
 
-#card-prof{
+#card-prof {
     margin-top: 0px;
     text-align: center;
+}
+
+.card-icon {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.icon {
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    height: 22px;
+    width: 22px;
+    min-width: 22px;
+    min-height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
